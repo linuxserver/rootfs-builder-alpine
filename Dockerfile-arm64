@@ -1,4 +1,4 @@
-FROM lsiobase/alpine.arm64
+FROM owlab/alpine-arm64
 MAINTAINER sparklyballs
 
 # install packages
