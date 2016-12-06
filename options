@@ -1,0 +1,3 @@
+RELEASE=v3.4
+MIRROR=http://dl-cdn.alpinelinux.org/alpine
+PACKAGES=alpine-baselayout,alpine-keys,apk-tools,libc-utils

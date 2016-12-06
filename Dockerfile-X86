@@ -1,0 +1,20 @@
+FROM lsiobase/alpine
+MAINTAINER sparklyballs
+
+# install packages
+RUN \
+	apk add --no-cache \
+	bash \
+	curl \
+	tzdata
+
+# fetch builder script from gilderlabs
+RUN \
+ curl -o \
+ /mkimage-alpine.bash -L \
+	https://raw.githubusercontent.com/gliderlabs/docker-alpine/master/builder/scripts/mkimage-alpine.bash && \
+ chmod +x \
+	/mkimage-alpine.bash
+
+WORKDIR /mnt
+VOLUME /mnt
