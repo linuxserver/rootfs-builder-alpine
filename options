@@ -1,3 +1,3 @@
-RELEASE=v3.7
+RELEASE=v3.8
 MIRROR=http://dl-cdn.alpinelinux.org/alpine
 PACKAGES=alpine-baselayout,busybox,alpine-keys,apk-tools,libc-utils,xz
